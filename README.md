@@ -88,7 +88,7 @@ The bot continuously monitors for arbitrage opportunities and logs:
 - Transaction simulation results
 - Bundle submission status
 
-For detailed configuration options and advanced usage, see the [examples README](examples/README.md).
+For detailed configuration options and advanced usage, see the [examples README](examples/arbitrage-bot/README.md).
 
 ## License
 
