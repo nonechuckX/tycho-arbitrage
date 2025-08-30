@@ -232,7 +232,7 @@ pub async fn process_simulation_result(
 
     let gross_profit_biguint = gross_profit
         .to_biguint()
-        .ok_or_else(|| anyhow::anyhow!("Failed to convert profit to BigUint"))?;
+        .ok_or_else(|| anyhow::anyhow!("Gross profit less than zero"))?;
 
     let gas_cost = decoded_logs.gas_cost(u256_to_biguint(base_fee));
     

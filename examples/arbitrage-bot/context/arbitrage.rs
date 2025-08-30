@@ -128,7 +128,7 @@ pub async fn execute_arbitrage_search(
                     }
                     Err(e) => {
                         failed_count += 1;
-                        tracing::error!(
+                        tracing::info!(
                             error = %e,
                             "Failed to process simulation result"
                         );
