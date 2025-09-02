@@ -1,6 +1,8 @@
 # Tycho Atomic Arbitrage
 
-A high-performance atomic arbitrage bot built with Rust and the Tycho Simulation library. This project demonstrates real-time arbitrage opportunity detection and execution across multiple decentralized exchanges.
+A high-performance atomic arbitrage bot built with Rust and the [Tycho library](https://docs.propellerheads.xyz/tycho). This project demonstrates real-time arbitrage opportunity detection and execution across multiple decentralized exchanges.
+
+ℹ️ **Project Background:** Built for a Tycho Application bounty – [TAP 4](https://github.com/propeller-heads/tycho-x/blob/main/TAP-4.md). Join developers using Tycho in [tycho.build](https://t.me/+B4CNQwv7dgIyYTJl). 
 
 ## Features
 
@@ -29,8 +31,15 @@ Tycho Stream → Trading Graph → Path Discovery → Simulation → Bundle Subm
 ### Prerequisites
 
 - Rust 1.70+ and Cargo
-- Tycho API key and endpoint access
-- Ethereum-compatible RPC URL
+- Tycho API key and endpoint access. If you don't have an API key, you can use
+  ```
+  TYCHO_API_KEY=sampletoken
+  ```
+- Ethereum-compatible RPC URL which supports `eth_simulateV1`. For testing, you can use  
+  ```
+  TYCHO_RPC_URL=https://docs-demo.quiknode.pro/
+  ```
+  However, higher requests per second (RPS) are required to avoid rate limiting errors. If needed, you can create a free endpoint at dashboard.quicknode.com
 - Private key for transaction execution
 
 ### Setup
