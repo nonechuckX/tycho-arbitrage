@@ -1,6 +1,6 @@
-# Tycho Atomic Arbitrage
+# Eseepee - Tycho Atomic Arbitrage Bot
 
-A high-performance atomic arbitrage bot built with Rust and the [Tycho library](https://docs.propellerheads.xyz/tycho). This project demonstrates real-time arbitrage opportunity detection and execution across multiple decentralized exchanges.
+Eseepee is a high-performance atomic arbitrage bot built with Rust and the [Tycho library](https://docs.propellerheads.xyz/tycho). This project demonstrates real-time arbitrage opportunity detection and execution across multiple decentralized exchanges.
 
 ℹ️ **Project Background:** Built for a Tycho Application bounty – [TAP 4](https://github.com/propeller-heads/tycho-x/blob/main/TAP-4.md). Join developers using Tycho in [tycho.build](https://t.me/+B4CNQwv7dgIyYTJl). 
 
