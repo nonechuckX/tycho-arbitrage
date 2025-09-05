@@ -1,4 +1,5 @@
 # Triangle - Tycho Atomic Arbitrage Bot
+<img width="1494" height="444" alt="image" src="https://github.com/user-attachments/assets/bd23de6b-da76-4605-9bcc-7d345a54ecfc" />
 
 Triangle is a high-performance atomic arbitrage bot built with Rust and the [Tycho library](https://docs.propellerheads.xyz/tycho). This project demonstrates real-time arbitrage opportunity detection and execution across multiple decentralized exchanges.
 
